@@ -79,7 +79,7 @@ public class DemoApplication implements CommandLineRunner {
 
 
         Producto po5 = new Producto();
-        po5.setCodigo(4);
+        po5.setCodigo(5);
         po5.setNombre("P5");
         po5.setVolumen("5.555");
         po5.setFactor(3);
