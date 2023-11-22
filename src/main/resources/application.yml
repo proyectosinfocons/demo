@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/meseroapp2 #mongodb+srv://TU_USUARIO:TU_PASS@cluster0.utdto.mongodb.net/TU_BD
+      
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+      
+okta:
+  oauth2:
+    issuer: TU_ISSUER/oauth2/default
+    client-id: TU_CLIENT_ID
+    client-secret: TU_CLIENT_SECRET
+      
